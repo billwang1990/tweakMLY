@@ -6,8 +6,9 @@
 
     NSURLRequest *request = webView.request;
     NSString *urlstring = request.URL.absoluteString;
-    
-    if (!webView.isLoading && ([urlstring rangeOfString:@"mapi.miliyo.com/home/index"].location != NSNotFound)) {
+
+
+    if (!webView.isLoading && ([urlstring rangeOfString:@"mapi.miliyo.com/home"].location != NSNotFound)) {
         
         
          NSString *output = [webView stringByEvaluatingJavaScriptFromString:@"function f()"
