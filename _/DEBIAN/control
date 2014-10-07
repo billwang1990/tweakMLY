@@ -1,0 +1,10 @@
+Package: tweakMLY
+Name: tweakMLY
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: wyq
+Author: wyq
+Section: Tweaks
+Version: 0.0.1-39
+Installed-Size: 16
